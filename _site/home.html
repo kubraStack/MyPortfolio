@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.5.0/remixicon.css" integrity="sha512-HXXR0l2yMwHDrDyxJbrMD9eLvPe3z3qL3PPeozNTsiHJEENxx8DH2CxmV05iwG0dwoz5n4gQZQyYLUNt1Wdgfg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />    <link rel="stylesheet" href="style/style.css">
+  <link rel="stylesheet" href="style/style.css">
+  <title>MyLabs | Home</title>
+</head>
+<body>
+  <!--======== HEADER ============--> 
+  <header class="header" id="header">
+    <nav class="nav container">
+      <a href="home.html" class="nav_logo">KS</a>
+      <div class="nav_menu" id="nav-menu">
+        <ul class="nav_list">
+          <li class="nav_item">
+            <a href="home.html" class="nav_link">Home</a>
+          </li>
+          <li class="nav_item">
+            <a href="about.html" class="nav_link">About</a>
+          </li>
+          <li class="nav_item">
+            <a href="project.html" class="nav_link">Project</a>
+          </li>
+          <li class="nav_item">
+            <a href="contact.html" class="button">Contact</a>
+          </li>
+        </ul>
+
+        <!-- Close Button -->
+        <div class="nav_close" id="nav-close">
+          <i class="ri-close-circle-line"></i>
+        </div>
+      </div>
+      <div class="nav_actions">
+        <!-- Theme button -->
+        <i class="ri-moon-line change-theme" id="theme-button"></i>
+        <!-- Toggle button -->
+        <div class="nav_toggle" id="nav-toggle">
+          <i class="ri-apps-2-line"></i>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <!--======== MAIN ============--> 
+  <main class="main">
+    <!--======== HOME ============--> 
+    <section class="home section">
+      <div class="home_rectangle"></div>
+      <div class="home_container container grid">
+        <div class="home_perfil perfil">
+          <div class="perfil_content">
+            <img src="/images/users.png" alt="image" class="perfil_img">
+          </div>
+        </div>
+        <div class="home_content grid">
+          <div class="home_data grid">
+            <h1 class="home_name">Kübra Satılmış</h1>
+            <h2 class="home_profession">Web Developer</h2>
+            <div class="home_social">
+              <a href="https://www.linkedin.com/in/kubra-satılmıs/" target="_blank" class="home_social-link">
+                <i class="ri-linkedin-box-fill"></i>
+              </a>
+              <a href="https://github.com/kubraStack" target="_blank" class="home_social-link">
+                <i class="ri-github-fill"></i>
+              </a>
+              <a href="https://twitter.com/Kbra3014" target="_blank" class="home_social-link">
+                <i class="ri-twitter-x-line"></i>
+              </a>
+            </div>
+          </div>
+          <a href="/images/portfolio.pdf" download="" class="home_button button">Download CV</a>
+        </div>
+        
+      </div>
+    </section>
+   <!--======== SERVİCES ============--> 
+    <section class="services section">
+      <h2 class="section_title">
+        The Services <br>
+        I Offer
+      </h2>
+      <div class="services_container container grid">
+        <article class="services_card">
+          <i class="ri-code-s-slash-line services_icon"></i>
+          <h2 class="services_title">Fullstack Web Developer</h2>
+          <p class="services_description">
+            I am here to take your business to the next level by providing you with a complete and professional software solution. With full-stack software services, I offer a comprehensive approach to empower your business and maximize your digital presence.
+            If you want to have a fully responsive website according to the design you want, please contact me. 
+          </p>
+          <button class="services_button button">Know More</button>
+          <div class="services_modal">
+            <div class="services_modal-content">
+              <i class="ri-close-line services_modal-close"></i>
+
+              <h2 class="services_modal-title">Web Developer</h2>
+              <ul class="services_modal-list grid">
+                <li class="services_modal-item">
+                  Strengthen your online presence with modern and user-friendly web applications.
+                </li>
+                <li class="services_modal-item">
+                  Web design that reflects your business and addresses your requests.
+                </li>
+                <li class="services_modal-item">
+                  Making your website compliant with SEO standards.
+                </li>
+                <li class="services_modal-item">
+                  Providing continuous support and updating software by adding new features.
+                </li>
+                <li class="services_modal-item">
+                  Efficient storage and management of data with powerful and reliable database solutions.
+                </li>
+              </ul>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+    <!--======== WORK ============--> 
+  </main>
+  
+  <!--======== PROJECTS ============-->
+  <section class="work section">
+    <h2 class="section_title">
+      My Most <br>
+      Recent Works
+    </h2>
+
+    <div class="work_container container grid">
+      <article class="work_card">
+        <a href="#" target="_blank" class="work_link">
+          <img src="/images/works/Freelancer-Home.png" alt="image" class="work_image">
+          <i class="ri-arrow-right-circle-line work_icon" ></i>
+        </a>
+        <h2 class="work_title">Personal Website</h2>
+        <span class="work_subtitle">Personalised freelance promotion site</span>
+      </article>
+
+      <article class="work_card">
+        <a href="#"target="_blank" class="work_link">
+          <img src="/images/works/BlogWebSites.png" alt="image" class="work_image">
+          <i class="ri-arrow-right-circle-line work_icon" ></i>
+        </a>
+        <h2 class="work_title">Blog Website</h2>
+        <span class="work_subtitle">Special blog page where you can reflect your ideas</span>
+      </article>
+
+      <article class="work_card">
+        <a href="#"target="_blank" class="work_link">
+          <img src="/images/works/Hotel.png" alt="image" class="work_image">
+          <i class="ri-arrow-right-circle-line work_icon" ></i>
+        </a>
+        <h2 class="work_title">Business Website</h2>
+        <span class="work_subtitle">Websites where you can promote your business</span>
+      </article>
+
+      <article class="work_card">
+        <a href="#"target="_blank" class="work_link">
+          <img src="/images/works/İnstagramClone.png" alt="image" class="work_image">
+          <i class="ri-arrow-right-circle-line work_icon" ></i>
+        </a>
+        <h2 class="work_title">Clone Websites</h2>
+        <span class="work_subtitle">Making clones of your favourite sites</span>
+      </article>
+
+      <article class="work_card">
+        <a href="#"target="_blank" class="work_link">
+          <img src="/images/works/journalist1.png" alt="image" class="work_image">
+          <i class="ri-arrow-right-circle-line work_icon" ></i>
+        </a>
+        <h2 class="work_title">Journalist Website</h2>
+        <span class="work_subtitle">Sites where you can transfer the news on the agenda</span>
+      </article>
+      <article class="work_card">
+        <a href="#"target="_blank" class="work_link">
+          <img src="/images/works/responsive.jpg" alt="image" class="work_image">
+          <i class="ri-arrow-right-circle-line work_icon" ></i>
+        </a>
+        <h2 class="work_title">Responsive Design</h2>
+        <span class="work_subtitle">Website compatible with all devices</span>
+      </article>
+    </div>
+  </section>
+  <!-- ===========CONTACT===================== -->
+  <section class="contact section">
+    <div class="contact_container container grid">
+      <h2 class="section_title">
+        Let's Talk <br>
+        About Your Project
+      </h2>
+      <a href="contact.html" class="contact_button button">Contact Me</a>
+    </div>
+  </section>
+  <!-- ===========FOOTER===================== -->
+  <footer class="footer">
+    <div class="footer_container container grid">
+      <div class="footer_content grid">
+        <a href="home.html" class="footer_logo">KS</a>
+
+        <ul class="footer_links">
+          <li>
+            <a href="about.html" class="footer_link">About Me</a>
+          </li>
+          <li>
+            <a href="project.html" class="footer_link">Portfolio</a>
+          </li>
+          <li>
+            <a href="contact.html" class="footer_link">Contact Me</a>
+          </li>
+        </ul>
+
+        <div class="footer_social">
+          <a href="https://www.linkedin.com/in/kubra-satılmıs/" target="_blank" class="footer_social-link">
+            <i class="ri-linkedin-box-fill"></i>
+          </a>
+
+          <a href="https://github.com/kubraStack" target="_blank" class="footer_social-link">
+            <i class="ri-github-fill"></i>
+          </a>
+
+          <a href="https://twitter.com/Kbra3014" target="_blank" class="footer_social-link">
+            <i class="ri-twitter-x-line"></i>
+          </a>
+        </div>
+      </div>
+
+      <span class="footer_copy"> &#169; All Rights Reserved Kübra Satılmış</span>
+    </div>
+  </footer>
+
+  <!-- ===============SCROLL UP================== -->
+  <a href="" class="scrollup" id="scroll-up">
+    <i class="ri-arrow-up-line"></i>
+  </a>
+
+
+  <script src="js/app.js"></script>
+  <script src="js/index.js"></script>
+  
+</body>
+</html>
