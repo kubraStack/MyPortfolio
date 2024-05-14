@@ -18,8 +18,8 @@
         -> Copy the color mode (HSL)
     */
     --hue:255;
-    --first-color: hsl(var(--hue), 90%, 60%);
-    --first-color-alt: hsl(var(--hue), 82%, 56%);
+    --first-color: hsl(var(--hue), 50%, 60%);
+    --first-color-alt: hsl(var(--hue), 22%, 56%);
     --first-color-light: hsl(var(--hue), 40%, 80%);
     --title-color: hsl(var(--hue), 24%, 16%);
     --text-color: hsl(var(--hue), 8%, 45%);
@@ -918,7 +918,7 @@ body.dark-theme{
         width: 40vw;
     }   
     .main{
-        height: 100vw;
+        height: 80vw;
     }
     .about{
         margin: 20rem;
