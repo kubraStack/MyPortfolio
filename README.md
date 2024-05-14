@@ -3,4 +3,4 @@
 ![portfolio3](https://github.com/kubraStack/MyPortfolio/assets/90907447/5f545408-eeec-4a82-8d07-5585f0dfaf9a)
 ![portlio4](https://github.com/kubraStack/MyPortfolio/assets/90907447/13a570dc-2a99-47bb-afec-fa8cab6a4694)
 ![portfolio5](https://github.com/kubraStack/MyPortfolio/assets/90907447/c6221988-a5c4-482e-938b-6515c3a981d1)
-[![Netlify Status](https://api.netlify.com/api/v1/badges/cc41a516-e420-4e77-a739-b5aa115d4912/deploy-status)](https://app.netlify.com/sites/kubrasatilmis/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/233f7ebd-68a6-4711-a682-5f1b1b607a3b/deploy-status)](https://app.netlify.com/sites/kubrasatilmis/deploys)
